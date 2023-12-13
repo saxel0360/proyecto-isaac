@@ -1,0 +1,92 @@
+.cont-platos {
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartas {
+    margin: 20px;
+    width: 270px;
+}
+
+.cart-abajo {
+    margin-bottom: 40px;
+}
+
+.img-iz {
+    height: 400px;
+    width: 600px;
+
+}
+
+.img-cartas {
+    height: 150px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulos {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kavoon', serif;
+    color: rgb(215, 198, 198);
+    margin-top: 30px;
+}
+
+.carta-body {
+    background: rgb(255, 247, 0) !important;
+    background: radial-gradient(circle, rgba(255, 247, 0, 0) 36%, rgba(19, 19, 19, 1) 59%) !important;
+    color: white !important;
+}
+.titulo-c-a{
+    text-align: center;
+}
+.carta-enla{
+    text-decoration: none;
+    color: white;
+}
+.carta-enla:hover{
+    color: aqua;
+}
+.fondo-lp{
+    background-image: linear-gradient(rgba(5,7,12,0.55), rgba(5,7,12,0.55)),
+    url(../assets/fondosDep/Flapaz.jpg);
+    padding: 20px;
+}
+.fondo-oru{
+    background-image: linear-gradient(rgba(5,7,12,0.55), rgba(5,7,12,0.55)),
+    url(../assets/fondosDep/Foruro.jpg);
+    padding: 20px;
+}
+.fondo-pt{
+    background-image: linear-gradient(rgba(5,7,12,0.55), rgba(5,7,12,0.55)),
+    url(../assets/fondosDep/FPotosi.jpg);
+    padding: 20px;
+}
+.fondo-pd{
+    background-image: linear-gradient(rgba(5,7,12,0.55), rgba(5,7,12,0.55)),
+    url(../assets/fondosDep/Fpando.jpg);
+    padding: 20px;
+}
+.fondo-bn{
+    background-image: linear-gradient(rgba(5,7,12,0.55), rgba(5,7,12,0.55)),
+    url(../assets/fondosDep/FBeni.jpg);
+    padding: 20px;
+}
+.fondo-scz{
+    background-image: linear-gradient(rgba(5,7,12,0.55), rgba(5,7,12,0.55)),
+    url(../assets/fondosDep/Fscz.webp);
+    padding: 20px;
+}
+.fondo-ch{
+    background-image: linear-gradient(rgba(5,7,12,0.55), rgba(5,7,12,0.55)),
+    url(../assets/fondosDep/FCocha.jpg);
+    padding: 20px;
+}

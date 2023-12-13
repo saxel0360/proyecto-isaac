@@ -1,0 +1,66 @@
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+.fondo {
+    background: rgb(223, 0, 0);
+    background: linear-gradient(97deg, rgba(223, 0, 0, 1) 0%, rgba(242, 239, 0, 1) 50%, rgba(11, 83, 0, 1) 100%, rgba(36, 0, 8, 1) 100%, rgba(36, 0, 8, 1) 100%, rgba(36, 0, 8, 1) 100%);
+}
+
+.pestañas {
+    border-radius: 30px;
+    margin: 2px;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kavoon', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio {
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kavoon', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio:hover {
+    border: 1px solid black;
+    color: white;
+    background: rgb(94, 244, 247);
+    background: radial-gradient(circle, rgba(94, 244, 247, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.pestañas:hover {
+    background-color: black;
+    color: white;
+}
+
+.banderas {
+    border: solid 1px black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}

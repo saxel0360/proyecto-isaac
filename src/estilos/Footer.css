@@ -1,0 +1,56 @@
+
+.tam-logo{
+    width: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactos a {
+    text-decoration: none;
+    color: white;
+}
+
+@media all and (max-width: 800px) {
+    .gmail{
+        visibility: hidden;
+    }
+}
+@media all and (max-width: 650px) {
+    .correo{
+        visibility: hidden;
+    }
+}
+@media all and (max-width: 570px) {
+    .correo{
+        visibility: visible;
+    }
+}
